@@ -1,0 +1,18 @@
+{
+    "name": "mahdi/cardmanager",
+    "autoload": {
+        "psr-4": {
+            "Mahdi\\Cardmanager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mahdikarimzadeh"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^3.3",
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
